@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fbb4b14-604b-465a-98bf-aa16b380a25d" name="Default Changelist" comment="" />
+    <list default="true" id="7fbb4b14-604b-465a-98bf-aa16b380a25d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/PrintDuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/PrintUniqueElementsInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/LCMOfNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/LCMOfNumbers.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2IB6flHkH43cQFkEFsbVQb2cqAR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,26 +33,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.LCMOfNumbers">
+  <component name="RunManager" selected="Application.PrintDuplicateNumber">
     <configuration name="FindGCDofNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.techxtor.NumberPrograms.FindGCDofNumbers" />
       <module name="java-programs-examples" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.techxtor.NumberPrograms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindSecondLargestNumberNonUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.NumberPrograms.FindSecondLargestNumberNonUnique" />
-      <module name="java-programs-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techxtor.ArrayPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,8 +60,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftRotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.ArrayPrograms.LeftRotateArray" />
+    <configuration name="PrintDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.ArrayPrograms.PrintDuplicateNumber" />
+      <module name="java-programs-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techxtor.ArrayPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintUniqueElementsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.ArrayPrograms.PrintUniqueElementsInArray" />
       <module name="java-programs-examples" />
       <extension name="coverage">
         <pattern>
@@ -92,19 +100,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindSecondLargestNumberNonUnique" />
-      <item itemvalue="Application.LeftRotateArray" />
       <item itemvalue="Application.RightRotateArray" />
       <item itemvalue="Application.FindGCDofNumbers" />
       <item itemvalue="Application.LCMOfNumbers" />
+      <item itemvalue="Application.PrintUniqueElementsInArray" />
+      <item itemvalue="Application.PrintDuplicateNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintDuplicateNumber" />
+        <item itemvalue="Application.PrintUniqueElementsInArray" />
         <item itemvalue="Application.LCMOfNumbers" />
         <item itemvalue="Application.FindGCDofNumbers" />
         <item itemvalue="Application.RightRotateArray" />
-        <item itemvalue="Application.LeftRotateArray" />
-        <item itemvalue="Application.FindSecondLargestNumberNonUnique" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +128,8 @@
       <updated>1669642734411</updated>
       <workItem from="1669642737246" duration="8831000" />
       <workItem from="1670217454552" duration="735000" />
-      <workItem from="1672111675476" duration="14262000" />
+      <workItem from="1672111675476" duration="14368000" />
+      <workItem from="1672223181074" duration="2562000" />
     </task>
     <servers />
   </component>
@@ -132,38 +141,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="606" y="134" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1672129682031" />
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1672149899680">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1672227456503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1672149899680" />
-    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1672149899679">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1672227456503" />
+    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1672227456503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1672149899679" />
-    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1672149899679">
+    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1672227456503" />
+    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1672227456503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1672149899679" />
-    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1672149899679">
+    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1672227456503" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1672227456503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1672149899679" />
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1672148671227">
+    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1672227456503" />
+    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1672150315422">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1672148671227" />
-    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1672148671226">
+    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1672150315422" />
+    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1672150315421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1672148671226" />
-    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1672148671226">
+    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1672150315421" />
+    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1672150315421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1672148671226" />
-    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1672148671227">
+    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1672150315421" />
+    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1672150315421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1672148671227" />
+    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1672150315421" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1672149817527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
