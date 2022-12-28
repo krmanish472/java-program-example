@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fbb4b14-604b-465a-98bf-aa16b380a25d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/PrintDuplicateNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/PrintUniqueElementsInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/CanAttendMeeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/CasinoGamblingShortestGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/MostRepeatingCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/MostRepeatingNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/ReverseASentence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/LCMOfNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/LCMOfNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/PrintDuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/PrintDuplicateNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +36,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.PrintDuplicateNumber">
-    <configuration name="FindGCDofNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.NumberPrograms.FindGCDofNumbers" />
+  <component name="RunManager" selected="Application.ReverseASentence">
+    <configuration name="CanAttendMeeting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.InterviewQue.CanAttendMeeting" />
       <module name="java-programs-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.techxtor.NumberPrograms.*" />
+          <option name="PATTERN" value="com.techxtor.InterviewQue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -47,12 +50,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LCMOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.NumberPrograms.LCMOfNumbers" />
+    <configuration name="CasinoGamblingShortestGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.InterviewQue.CasinoGamblingShortestGame" />
       <module name="java-programs-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.techxtor.NumberPrograms.*" />
+          <option name="PATTERN" value="com.techxtor.InterviewQue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MostRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.InterviewQue.MostRepeatingCharacter" />
+      <module name="java-programs-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techxtor.InterviewQue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,25 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintUniqueElementsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.ArrayPrograms.PrintUniqueElementsInArray" />
+    <configuration name="ReverseASentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.InterviewQue.ReverseASentence" />
       <module name="java-programs-examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.techxtor.ArrayPrograms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RightRotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.ArrayPrograms.RightRotateArray" />
-      <module name="java-programs-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techxtor.ArrayPrograms.*" />
+          <option name="PATTERN" value="com.techxtor.InterviewQue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,19 +103,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RightRotateArray" />
-      <item itemvalue="Application.FindGCDofNumbers" />
-      <item itemvalue="Application.LCMOfNumbers" />
-      <item itemvalue="Application.PrintUniqueElementsInArray" />
       <item itemvalue="Application.PrintDuplicateNumber" />
+      <item itemvalue="Application.CanAttendMeeting" />
+      <item itemvalue="Application.CasinoGamblingShortestGame" />
+      <item itemvalue="Application.MostRepeatingCharacter" />
+      <item itemvalue="Application.ReverseASentence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseASentence" />
+        <item itemvalue="Application.MostRepeatingCharacter" />
         <item itemvalue="Application.PrintDuplicateNumber" />
-        <item itemvalue="Application.PrintUniqueElementsInArray" />
-        <item itemvalue="Application.LCMOfNumbers" />
-        <item itemvalue="Application.FindGCDofNumbers" />
-        <item itemvalue="Application.RightRotateArray" />
+        <item itemvalue="Application.CasinoGamblingShortestGame" />
+        <item itemvalue="Application.CanAttendMeeting" />
       </list>
     </recent_temporary>
   </component>
@@ -129,50 +132,75 @@
       <workItem from="1669642737246" duration="8831000" />
       <workItem from="1670217454552" duration="735000" />
       <workItem from="1672111675476" duration="14368000" />
-      <workItem from="1672223181074" duration="2562000" />
+      <workItem from="1672223181074" duration="2646000" />
+      <workItem from="1672229332308" duration="4955000" />
     </task>
+    <task id="LOCAL-00001" summary="map frequency">
+      <created>1672227497030</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672227497030</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="map frequency" />
+    <option name="LAST_COMMIT_MESSAGE" value="map frequency" />
   </component>
   <component name="WindowStateProjectService">
     <state x="606" y="134" key="#xdebugger.evaluate" timestamp="1672129682031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="606" y="134" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1672129682031" />
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1672227456503">
+    <state x="177" y="0" key="CommitChangelistDialog2" timestamp="1672227495712">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1672227456503" />
-    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1672227456503">
+    <state x="177" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1672227495712" />
+    <state width="445" height="438" key="DebuggerActiveHint" timestamp="1672233199465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1672227456503" />
-    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1672227456503">
+    <state width="445" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1672233199465" />
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1672233825781">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1672227456503" />
-    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1672227456503">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1672233825781" />
+    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1672233825781">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1672227456503" />
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1672150315422">
+    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1672233825781" />
+    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1672233825781">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1672150315422" />
-    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1672150315421">
+    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1672233825781" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1672233825781">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1672150315421" />
-    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1672150315421">
+    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1672233825781" />
+    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1672233224365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1672150315421" />
-    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1672150315421">
+    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1672233224365" />
+    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1672233224365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1672150315421" />
+    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1672233224365" />
+    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1672233224365">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1672233224365" />
+    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1672233224365">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1672233224365" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1672227500739">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1672227500739" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1672149817527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

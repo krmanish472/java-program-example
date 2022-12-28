@@ -19,17 +19,11 @@ public class PrintDuplicateNumber {
             }
         }
 
-//        Set<Map.Entry<Integer, Integer>> entries = integerFrequency.entrySet();
-        for (Map.Entry<Integer, Integer> entry : integerFrequency.entrySet()) {
+        Set<Map.Entry<Integer, Integer>> entries = integerFrequency.entrySet();
+        for (Map.Entry<Integer, Integer> entry : entries) {
             if (entry.getValue().equals(2)) {
                 System.out.print(entry.getKey() + " ");
             }
         }
-        /*for (int key : integerFrequency.keySet()) {
-            if (key == 2) {
-                int value = integerFrequency.get(key);
-                System.out.print(value + " ");
-            }
-        }*/
     }
 }
