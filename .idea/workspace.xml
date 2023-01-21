@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fbb4b14-604b-465a-98bf-aa16b380a25d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/FrequencyOfNumberUsingListToSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/CapitalizeStringWhoseFirstLetterIsA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FilterEmployeeWithSalaryGreaterThanTenK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FilterNumberStartingWithOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FrequencyOfNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/GroupEmployeeByCity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SortEmpByAgeAndIfAgeIsSameSortBySalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SortEmployeeBasedOnAgeAndSalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SortEmployeeByAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SortEmployeeListByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SortHashMapBasedOnValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FindDuplicateNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +31,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.FrequencyOfNumbers">
+  <component name="RunManager" selected="Application.FindDuplicateNumber">
+    <configuration name="FindDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.StreamApi.FindDuplicateNumber" />
+      <module name="java-programs-examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techxtor.StreamApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FrequencyOfNumberUsingListToSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.techxtor.InterviewQue.FrequencyOfNumberUsingListToSet" />
       <module name="java-programs-examples" />
@@ -95,33 +97,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortHashMapBasedOnValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.StreamApi.SortHashMapBasedOnValue" />
-      <module name="java-programs-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techxtor.StreamApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.SortEmployeeBasedOnAgeAndSalary" />
-      <item itemvalue="Application.SortHashMapBasedOnValue" />
       <item itemvalue="Application.SortEmpByAgeAndIfAgeIsSameSortBySalary" />
       <item itemvalue="Application.FrequencyOfNumberUsingListToSet" />
       <item itemvalue="Application.FrequencyOfNumbers" />
+      <item itemvalue="Application.FindDuplicateNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindDuplicateNumber" />
         <item itemvalue="Application.FrequencyOfNumbers" />
         <item itemvalue="Application.FrequencyOfNumberUsingListToSet" />
         <item itemvalue="Application.SortEmpByAgeAndIfAgeIsSameSortBySalary" />
         <item itemvalue="Application.SortEmployeeBasedOnAgeAndSalary" />
-        <item itemvalue="Application.SortHashMapBasedOnValue" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +129,8 @@
       <workItem from="1672111675476" duration="14368000" />
       <workItem from="1672223181074" duration="2646000" />
       <workItem from="1672229332308" duration="5000000" />
-      <workItem from="1674279750063" duration="6948000" />
+      <workItem from="1674279750063" duration="7032000" />
+      <workItem from="1674302560955" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="map frequency">
       <created>1672227497030</created>
@@ -156,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672234355692</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Stream API FAQ">
+      <created>1674301959324</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674301959324</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +162,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="map frequency" />
     <MESSAGE value="some interview questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="some interview questions" />
+    <MESSAGE value="Stream API FAQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream API FAQ" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1674284926333">
@@ -176,50 +174,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="606" y="134" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1672129682031" />
-    <state x="177" y="0" key="CommitChangelistDialog2" timestamp="1672234354280">
+    <state x="177" y="0" key="CommitChangelistDialog2" timestamp="1674301958333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="177" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1672234354280" />
+    <state x="177" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1674301958333" />
     <state width="445" height="438" key="DebuggerActiveHint" timestamp="1674301453858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="445" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1674301453858" />
-    <state width="1323" height="160" key="GridCell.Tab.0.bottom" timestamp="1674301868920">
+    <state width="1323" height="160" key="GridCell.Tab.0.bottom" timestamp="1674302981433">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1674301868920" />
-    <state width="1323" height="160" key="GridCell.Tab.0.center" timestamp="1674301868920">
+    <state width="1323" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1674302981433" />
+    <state width="1323" height="160" key="GridCell.Tab.0.center" timestamp="1674302981433">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1674301868920" />
-    <state width="1323" height="160" key="GridCell.Tab.0.left" timestamp="1674301868920">
+    <state width="1323" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1674302981433" />
+    <state width="1323" height="160" key="GridCell.Tab.0.left" timestamp="1674302981433">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1674301868920" />
-    <state width="1323" height="160" key="GridCell.Tab.0.right" timestamp="1674301868920">
+    <state width="1323" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1674302981433" />
+    <state width="1323" height="160" key="GridCell.Tab.0.right" timestamp="1674302981433">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1674301868920" />
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1674301626340">
+    <state width="1323" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1674302981433" />
+    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1674301979931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1674301626340" />
-    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1674301626340">
+    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1674301979931" />
+    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1674301979931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1674301626340" />
-    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1674301626340">
+    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1674301979931" />
+    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1674301979931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1674301626340" />
-    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1674301626340">
+    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1674301979931" />
+    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1674301979931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1674301626340" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1672234358327">
+    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1674301979931" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1674301966567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1672234358327" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1674301966567" />
+    <state x="348" y="105" width="670" height="518" key="find.popup" timestamp="1674302675006">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="348" y="105" width="670" height="518" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1674302675006" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1672149817527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
