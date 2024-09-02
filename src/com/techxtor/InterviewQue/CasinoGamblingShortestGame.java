@@ -7,8 +7,8 @@ public class CasinoGamblingShortestGame {
         countShortestGame(8, 0);
     }
 
-    // N = 18
-    // K = 2 => only twice, we can bet all // all-in no more than K times
+    // N = 18 => Total Coin number
+    // K = 2 => only twice, we can bet all
 
     static void countShortestGame(int N, int K) {
         int count = 0;

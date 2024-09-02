@@ -11,8 +11,7 @@ public class CapitalizeStringWhoseFirstLetterIsA {
                 "Shruti",
                 "Amrita",
                 "Ayush",
-                "Parineeta",
-                "Achyut"
+                "Parineeta"
         );
         List<String> updatedList = names.stream()
                 .filter(name -> name.startsWith("A"))

@@ -1,9 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fbb4b14-604b-465a-98bf-aa16b380a25d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FindDuplicateNumber.java" afterDir="false" />
+    <list default="true" id="a399fc05-5409-4aad-8b0c-87d3b12ef12c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-program-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/RotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FindFrequencyOfNumbersAndSquareAndSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FrequencyOfCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/META-INF/java-programs-examples.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/EvenOddElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/FrequencyOfNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/LeftRotateArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/PrintThirdLargestNumberInUniqueArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/ReverseSortArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/RightRotateArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/SortArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/SumOfElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/ArmstrongNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/FibonacciSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/FindFactorialOfNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/FindGCDofNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/IsNumberPowerOfANumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/IsPalindromeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/LCMOfNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/LargestOfThreeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/PerfectSquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/PrimeNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/ReverseANumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/SwapNumberUsingBitwise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/SwapNumberWithThirdVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/SwapNumberWithoutThirdVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/CheckForAnagrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/CountAlphaNumbericCharacterOnly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/CountVowelAndConsonants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/DivideStringInNEqualParts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/FindAllSubsets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/FindSpecialCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/FrequencyOfCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/HasSpecialCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/IsPalindromeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/ReverseAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/LeftRotateArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/PrintThirdLargestNumberInUniqueArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/PrintUniqueElementsInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/PrintUniqueElementsInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/ReverseSortArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/RightRotateArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/SortArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/SumOfElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/SumOfElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/CanAttendMeeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/CanAttendMeeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/CasinoGamblingShortestGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/CasinoGamblingShortestGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/FrequencyOfNumberUsingListToSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/FrequencyOfNumberUsingListToSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/ReverseASentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/ReverseASentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/CapitalizeStringWhoseFirstLetterIsA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/CapitalizeStringWhoseFirstLetterIsA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/EmployeeOperation/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FilterEmployeeWithSalaryGreaterThanTenK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/EmployeeOperation/FilterEmployeeWithSalaryGreaterThanTenK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FilterNumberStartingWithOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FilterNumberStartingWithOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FrequencyOfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FrequencyOfNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/GroupEmployeeByCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/EmployeeOperation/GroupEmployeeByCity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SortEmpByAgeAndIfAgeIsSameSortBySalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/EmployeeOperation/SortEmpByAgeAndIfAgeIsSameSortBySalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SortEmployeeBasedOnAgeAndSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/EmployeeOperation/SortEmployeeBasedOnAgeAndSalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SortEmployeeByAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/EmployeeOperation/SortEmployeeByAge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SortEmployeeListByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/EmployeeOperation/SortEmployeeListByName.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,21 +87,67 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2IB6flHkH43cQFkEFsbVQb2cqAR" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2jn98GZwMmeOLfQnRZt4UVpYojd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CanAttendMeeting.executor": "Debug",
+    "Application.CasinoGamblingShortestGame.executor": "Debug",
+    "Application.FilterEmployeeWithSalaryGreaterThanTenK.executor": "Run",
+    "Application.FilterNumberStartingWithOne.executor": "Run",
+    "Application.FindFrequencyOfNumbersAndSort.executor": "Run",
+    "Application.FindFrequencyOfNumbersAndSquareAndSort.executor": "Run",
+    "Application.FrequencyOfCharacters.executor": "Run",
+    "Application.FrequencyOfNumberUsingListToSet.executor": "Run",
+    "Application.FrequencyOfNumbers.executor": "Run",
+    "Application.LeftRotateArray.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PrintUniqueElementsInArray.executor": "Run",
+    "Application.ReverseASentence.executor": "Run",
+    "Application.RightRotateArray.executor": "Run",
+    "Application.SortArray.executor": "Run",
+    "Application.SortEmployeeBasedOnAgeAndSalary.executor": "Run",
+    "Application.SortHashMapBasedOnValue.executor": "Run",
+    "Application.SumOfElements.executor": "Debug",
+    "Application.com.techxtor.ArrayPrograms.FrequencyOfNumbers.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Learning and Project/java-program-example/src/com/techxtor/StreamApi/EmployeeOperation"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Learning and Project\java-program-example\src\com\techxtor\StreamApi\EmployeeOperation" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.FindDuplicateNumber">
-    <configuration name="FindDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.StreamApi.FindDuplicateNumber" />
-      <module name="java-programs-examples" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CanAttendMeeting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.InterviewQue.CanAttendMeeting" />
+      <module name="java-program-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techxtor.InterviewQue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrequencyOfCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.StreamApi.FrequencyOfCharacters" />
+      <module name="java-program-example" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.techxtor.StreamApi.*" />
@@ -47,7 +160,7 @@
     </configuration>
     <configuration name="FrequencyOfNumberUsingListToSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.techxtor.InterviewQue.FrequencyOfNumberUsingListToSet" />
-      <module name="java-programs-examples" />
+      <module name="java-program-example" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.techxtor.InterviewQue.*" />
@@ -58,12 +171,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrequencyOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.StreamApi.FrequencyOfNumbers" />
-      <module name="java-programs-examples" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="java-program-example" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseASentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.InterviewQue.ReverseASentence" />
+      <module name="java-program-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.techxtor.StreamApi.*" />
+          <option name="PATTERN" value="com.techxtor.InterviewQue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,160 +191,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortEmpByAgeAndIfAgeIsSameSortBySalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.StreamApi.SortEmpByAgeAndIfAgeIsSameSortBySalary" />
-      <module name="java-programs-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techxtor.StreamApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortEmployeeBasedOnAgeAndSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.StreamApi.SortEmployeeBasedOnAgeAndSalary" />
-      <module name="java-programs-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techxtor.StreamApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.SortEmployeeBasedOnAgeAndSalary" />
-      <item itemvalue="Application.SortEmpByAgeAndIfAgeIsSameSortBySalary" />
-      <item itemvalue="Application.FrequencyOfNumberUsingListToSet" />
-      <item itemvalue="Application.FrequencyOfNumbers" />
-      <item itemvalue="Application.FindDuplicateNumber" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindDuplicateNumber" />
-        <item itemvalue="Application.FrequencyOfNumbers" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FrequencyOfCharacters" />
+        <item itemvalue="Application.CanAttendMeeting" />
+        <item itemvalue="Application.ReverseASentence" />
         <item itemvalue="Application.FrequencyOfNumberUsingListToSet" />
-        <item itemvalue="Application.SortEmpByAgeAndIfAgeIsSameSortBySalary" />
-        <item itemvalue="Application.SortEmployeeBasedOnAgeAndSalary" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7fbb4b14-604b-465a-98bf-aa16b380a25d" name="Default Changelist" comment="" />
-      <created>1669642734411</created>
+      <changelist id="a399fc05-5409-4aad-8b0c-87d3b12ef12c" name="Changes" comment="" />
+      <created>1722011812781</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669642734411</updated>
-      <workItem from="1669642737246" duration="8831000" />
-      <workItem from="1670217454552" duration="735000" />
-      <workItem from="1672111675476" duration="14368000" />
-      <workItem from="1672223181074" duration="2646000" />
-      <workItem from="1672229332308" duration="5000000" />
-      <workItem from="1674279750063" duration="7032000" />
-      <workItem from="1674302560955" duration="370000" />
+      <updated>1722011812781</updated>
     </task>
-    <task id="LOCAL-00001" summary="map frequency">
-      <created>1672227497030</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1672227497030</updated>
-    </task>
-    <task id="LOCAL-00002" summary="some interview questions">
-      <created>1672234355692</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1672234355692</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Stream API FAQ">
-      <created>1674301959324</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1674301959324</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="map frequency" />
-    <MESSAGE value="some interview questions" />
-    <MESSAGE value="Stream API FAQ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream API FAQ" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1674284926333">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1674284926333" />
-    <state x="606" y="134" key="#xdebugger.evaluate" timestamp="1672129682031">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="606" y="134" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1672129682031" />
-    <state x="177" y="0" key="CommitChangelistDialog2" timestamp="1674301958333">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="177" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1674301958333" />
-    <state width="445" height="438" key="DebuggerActiveHint" timestamp="1674301453858">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="445" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1674301453858" />
-    <state width="1323" height="160" key="GridCell.Tab.0.bottom" timestamp="1674302981433">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1674302981433" />
-    <state width="1323" height="160" key="GridCell.Tab.0.center" timestamp="1674302981433">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1674302981433" />
-    <state width="1323" height="160" key="GridCell.Tab.0.left" timestamp="1674302981433">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1674302981433" />
-    <state width="1323" height="160" key="GridCell.Tab.0.right" timestamp="1674302981433">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1674302981433" />
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1674301979931">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1674301979931" />
-    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1674301979931">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1674301979931" />
-    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1674301979931">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1674301979931" />
-    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1674301979931">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1674301979931" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1674301966567">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1674301966567" />
-    <state x="348" y="105" width="670" height="518" key="find.popup" timestamp="1674302675006">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="348" y="105" width="670" height="518" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1674302675006" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1672149817527">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1672149817527" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/techxtor/StreamApi/SortHashMapBasedOnValue.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

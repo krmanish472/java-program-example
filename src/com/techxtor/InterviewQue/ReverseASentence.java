@@ -1,19 +1,19 @@
 package com.techxtor.InterviewQue;
 
+import java.util.StringJoiner;
+
 public class ReverseASentence {
     public static void main(String[] args) {
         String str = "Hello World! How are you :)";
-        String str1 = " Hello";
-
         reverseSentence(str);
-        System.out.println();
-        reverseSentence(str1);
     }
 
     static void reverseSentence(String str) {
+        StringJoiner stringJoiner = new StringJoiner(" ");
         String[] arr = str.split(" ");
         for (int i = arr.length - 1; i >= 0; i--) {
-            System.out.print(arr[i] + " ");
+            stringJoiner.add(arr[i]);
         }
+        System.out.println(stringJoiner);
     }
 }
