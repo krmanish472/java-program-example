@@ -5,72 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a399fc05-5409-4aad-8b0c-87d3b12ef12c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-program-example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FindFrequencyOfNumbersAndSquareAndSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FrequencyOfCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/AvgOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FindDistinctElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FindMaxAndMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/GetAndIgnoreFirstFiveNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/NTHHighestSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SecondHighestLowest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SquareFilterAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SumOfNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/leetcode/easy/BuySellStocksI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/leetcode/easy/BuySellStocksII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/leetcode/easy/ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/leetcode/easy/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/leetcode/easy/LastStoneWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/leetcode/easy/MaximumSumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/leetcode/easy/NumberOfIsland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/leetcode/easy/PascalsTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/leetcode/easy/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/leetcode/easy/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/leetcode/easy/TwoSumI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/techxtor/leetcode/easy/TwoSumII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/META-INF/java-programs-examples.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/EvenOddElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/FrequencyOfNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/LeftRotateArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/PrintThirdLargestNumberInUniqueArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/ReverseSortArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/RightRotateArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/SortArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/ArrayPrograms/SumOfElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/ArmstrongNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/FibonacciSeries.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/FindFactorialOfNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/FindGCDofNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/IsNumberPowerOfANumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/IsPalindromeNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/LCMOfNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/LargestOfThreeNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/PerfectSquare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/PrimeNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/ReverseANumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/SwapNumberUsingBitwise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/SwapNumberWithThirdVar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/NumberPrograms/SwapNumberWithoutThirdVar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/CheckForAnagrams.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/CountAlphaNumbericCharacterOnly.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/CountVowelAndConsonants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/DivideStringInNEqualParts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/FindAllSubsets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/FindSpecialCharacter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/FrequencyOfCharacter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/HasSpecialCharacter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/IsPalindromeString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programs-examples/com/techxtor/StringProgram/ReverseAString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/LeftRotateArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/PrintThirdLargestNumberInUniqueArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/PrintUniqueElementsInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/PrintUniqueElementsInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/ReverseSortArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/RightRotateArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/SortArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/SumOfElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/ArrayPrograms/SumOfElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/CanAttendMeeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/CanAttendMeeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/CasinoGamblingShortestGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/CasinoGamblingShortestGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/FrequencyOfNumberUsingListToSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/FrequencyOfNumberUsingListToSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/ReverseASentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/InterviewQue/ReverseASentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/CapitalizeStringWhoseFirstLetterIsA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/CapitalizeStringWhoseFirstLetterIsA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/EmployeeOperation/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FilterEmployeeWithSalaryGreaterThanTenK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/EmployeeOperation/FilterEmployeeWithSalaryGreaterThanTenK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FilterNumberStartingWithOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FilterNumberStartingWithOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FrequencyOfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/FrequencyOfNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/GroupEmployeeByCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/EmployeeOperation/GroupEmployeeByCity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SortEmpByAgeAndIfAgeIsSameSortBySalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/EmployeeOperation/SortEmpByAgeAndIfAgeIsSameSortBySalary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SortEmployeeBasedOnAgeAndSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/EmployeeOperation/SortEmployeeBasedOnAgeAndSalary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SortEmployeeByAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/EmployeeOperation/SortEmployeeByAge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/techxtor/StreamApi/SortEmployeeListByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/techxtor/StreamApi/EmployeeOperation/SortEmployeeListByName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-program-example/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-program-example/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,24 +57,42 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BuySellStocksI.executor": "Run",
+    "Application.BuySellStocksII.executor": "Debug",
     "Application.CanAttendMeeting.executor": "Debug",
     "Application.CasinoGamblingShortestGame.executor": "Debug",
     "Application.FilterEmployeeWithSalaryGreaterThanTenK.executor": "Run",
     "Application.FilterNumberStartingWithOne.executor": "Run",
+    "Application.FindDistinctElements.executor": "Run",
     "Application.FindFrequencyOfNumbersAndSort.executor": "Run",
     "Application.FindFrequencyOfNumbersAndSquareAndSort.executor": "Run",
-    "Application.FrequencyOfCharacters.executor": "Run",
+    "Application.FindMaxAndMin.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
+    "Application.FrequencyOfCharacters.executor": "Debug",
     "Application.FrequencyOfNumberUsingListToSet.executor": "Run",
     "Application.FrequencyOfNumbers.executor": "Run",
+    "Application.GetAndIgnoreFirstFiveNum.executor": "Run",
+    "Application.LastStoneWeight.executor": "Debug",
     "Application.LeftRotateArray.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MaximumSumSubArray.executor": "Run",
+    "Application.NTHHighestSalary.executor": "Run",
+    "Application.NumberOfIsland.executor": "Debug",
+    "Application.PascalsTriangle.executor": "Debug",
     "Application.PrintUniqueElementsInArray.executor": "Run",
+    "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
     "Application.ReverseASentence.executor": "Run",
     "Application.RightRotateArray.executor": "Run",
+    "Application.SecondHighestLowest.executor": "Run",
     "Application.SortArray.executor": "Run",
     "Application.SortEmployeeBasedOnAgeAndSalary.executor": "Run",
     "Application.SortHashMapBasedOnValue.executor": "Run",
+    "Application.SquareFilterAverage.executor": "Run",
     "Application.SumOfElements.executor": "Debug",
+    "Application.SumOfNumbers.executor": "Run",
+    "Application.ThreeSum.executor": "Debug",
+    "Application.TwoSumI.executor": "Run",
+    "Application.TwoSumII.executor": "Run",
     "Application.com.techxtor.ArrayPrograms.FrequencyOfNumbers.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -131,22 +106,9 @@
       <recent name="D:\Learning and Project\java-program-example\src\com\techxtor\StreamApi\EmployeeOperation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CanAttendMeeting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.InterviewQue.CanAttendMeeting" />
-      <module name="java-program-example" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techxtor.InterviewQue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FrequencyOfCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.StreamApi.FrequencyOfCharacters" />
+  <component name="RunManager" selected="Application.NTHHighestSalary">
+    <configuration name="FindMaxAndMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.StreamApi.FindMaxAndMin" />
       <module name="java-program-example" />
       <extension name="coverage">
         <pattern>
@@ -158,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrequencyOfNumberUsingListToSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.InterviewQue.FrequencyOfNumberUsingListToSet" />
+    <configuration name="GetAndIgnoreFirstFiveNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.StreamApi.GetAndIgnoreFirstFiveNum" />
       <module name="java-program-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.techxtor.InterviewQue.*" />
+          <option name="PATTERN" value="com.techxtor.StreamApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,19 +133,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="NTHHighestSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.StreamApi.NTHHighestSalary" />
       <module name="java-program-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techxtor.StreamApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseASentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.techxtor.InterviewQue.ReverseASentence" />
+    <configuration name="SecondHighestLowest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.StreamApi.SecondHighestLowest" />
       <module name="java-program-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.techxtor.InterviewQue.*" />
+          <option name="PATTERN" value="com.techxtor.StreamApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareFilterAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.techxtor.StreamApi.SquareFilterAverage" />
+      <module name="java-program-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techxtor.StreamApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FrequencyOfCharacters" />
-        <item itemvalue="Application.CanAttendMeeting" />
-        <item itemvalue="Application.ReverseASentence" />
-        <item itemvalue="Application.FrequencyOfNumberUsingListToSet" />
+        <item itemvalue="Application.NTHHighestSalary" />
+        <item itemvalue="Application.SecondHighestLowest" />
+        <item itemvalue="Application.GetAndIgnoreFirstFiveNum" />
+        <item itemvalue="Application.FindMaxAndMin" />
+        <item itemvalue="Application.SquareFilterAverage" />
       </list>
     </recent_temporary>
   </component>
