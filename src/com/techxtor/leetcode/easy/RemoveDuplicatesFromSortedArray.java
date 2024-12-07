@@ -31,6 +31,10 @@ public class RemoveDuplicatesFromSortedArray {
         for (int num : set) {
             nums[i++] = num;
         }
+
+        for (int num : nums) {
+            System.out.println(num);
+        }
         return set.size();
     }
 }

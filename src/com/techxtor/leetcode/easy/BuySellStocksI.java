@@ -9,6 +9,7 @@ public class BuySellStocksI {
     static int maxProfit(int[] prices) {
         int totalProfit = 0;
         for (int i = 0; i < prices.length - 1; i++) {
+            // In each loop, check the max profit that can be booked
             for (int j = i + 1; j < prices.length; j++) {
                 totalProfit = Math.max(totalProfit, prices[j] - prices[i]);
             }

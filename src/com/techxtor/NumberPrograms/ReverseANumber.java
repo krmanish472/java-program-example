@@ -2,7 +2,7 @@ package com.techxtor.NumberPrograms;
 
 public class ReverseANumber {
     public static void main(String[] args) {
-        reverseNumber(12345);
+        reverseNumber(123);
     }
 
     static void reverseNumber(int num) {

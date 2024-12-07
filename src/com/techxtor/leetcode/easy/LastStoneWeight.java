@@ -18,15 +18,17 @@ Return the weight of the last remaining stone. If there are no stones left, retu
 * */
 public class LastStoneWeight {
     public static void main(String[] args) {
-        int last_Stone_Weight = lastStoneWeight(new int[]{2,7,4,1,8,1});
+        int last_Stone_Weight = lastStoneWeight(new int[]{2, 7, 4, 1, 8, 1});
         System.out.println(last_Stone_Weight);
     }
 
     public static int lastStoneWeight(int[] stones) {
         PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
-        Arrays.stream(stones)
-                .forEach(pq::add);
-        while (pq.size() >1){
+        for (int stone: stones){
+            pq.add(stone);
+        }
+        // There should at least be 2 elements in array
+        while (pq.size() > 1) {
             pq.add(pq.poll() - pq.poll());
         }
         return pq.poll();

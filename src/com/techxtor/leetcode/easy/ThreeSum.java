@@ -33,45 +33,46 @@ Explanation: The only possible triplet sums up to 0.
 * */
 public class ThreeSum {
     public static void main(String[] args) {
-        int[] nums = { -1, 0, 1, 2, -1, -4 };
+        int[] nums = {-1, 0, 1, 2, -1, -4};
         List<List<Integer>> triplets = threeSum(nums);
-        System.out.println("Triplets that sum up to zero are: " + triplets);
+        System.out.println("Triplets that sum up to zero are: " + triplets); // Output:  [[-1, -1, 2], [-1, 0, 1]]
     }
 
     public static List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums); //[-4, -1, -1, 0, 1, 2]
+
         List<List<Integer>> result = new ArrayList<>();
 
-        Arrays.sort(nums); //[-4, -1, -1, 0, 1, 2]
         for (int i = 0; i < nums.length - 2; i++) {
-            // Skip duplicate elements
+
+            // Check for Duplicate starting from 1st
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
 
             int left_pointer = i + 1;
             int right_pointer = nums.length - 1;
-
             while (left_pointer < right_pointer) {
                 int sum = nums[i] + nums[left_pointer] + nums[right_pointer];
-                if (sum == 0) {
-                    result.add(Arrays.asList(nums[i], nums[left_pointer], nums[right_pointer]));
-                    // Skip duplicate elements
-                    while (left_pointer < right_pointer && nums[left_pointer] == nums[left_pointer + 1]) {
-                        left_pointer++;
-                    }
-                    while (left_pointer < right_pointer && nums[right_pointer] == nums[right_pointer - 1]) {
-                        right_pointer--;
-                    }
-                    left_pointer++;
+                if (sum > 0) {
                     right_pointer--;
                 } else if (sum < 0) {
                     left_pointer++;
                 } else {
+                    result.add(Arrays.asList(nums[i], nums[left_pointer], nums[right_pointer]));
+                    // Avoid Duplicates on Left Traversal
+                    while (left_pointer < right_pointer && nums[left_pointer] == nums[left_pointer + 1]) {
+                        left_pointer++;
+                    }
+                    // Avoid duplicates on Right Traversal
+                    while (left_pointer < right_pointer && nums[right_pointer] == nums[right_pointer - 1]) {
+                        right_pointer--;
+                    }
                     right_pointer--;
+                    left_pointer++;
                 }
             }
         }
-
         return result;
     }
 }

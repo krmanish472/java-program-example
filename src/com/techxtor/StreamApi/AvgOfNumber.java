@@ -10,5 +10,10 @@ public class AvgOfNumber {
                 .average()
                 .getAsDouble();
         System.out.println(avg);
+
+        int[] arr = {1, 2, 3, 4, 5};
+        int sum = Arrays.stream(arr)
+                .sum();
+        System.out.println(sum);
     }
 }

@@ -25,9 +25,9 @@ Output: [0,1]
 */
 public class TwoSumI {
     public static void main(String[] args) {
-        int[] num1 = {2,7,11,15};
+        int[] num1 = {2, 7, 11, 15};
         int[] arr = twoSum(num1, 9);
-        Arrays.stream(arr).forEach(System.out::println);
+        Arrays.stream(arr).forEach(System.out::println); // Output: 0, 1
     }
 
     public static int[] twoSum(int[] nums, int target) {
@@ -38,7 +38,7 @@ public class TwoSumI {
             int remainder = target - nums[i]; // Find the remainder
             // If the complement exists in the map, return the indices
             if (map.containsKey(remainder)) {
-                return new int[] { map.get(remainder), i };
+                return new int[]{map.get(remainder), i};
             }
             // Otherwise, store the number and its index in the map
             map.put(nums[i], i);

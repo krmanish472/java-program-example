@@ -18,6 +18,17 @@ public class CapitalizeStringWhoseFirstLetterIsA {
                 .map(String::toUpperCase)
                 .collect(Collectors.toList());
 
-        updatedList.forEach(System.out::println);
+//        updatedList.forEach(System.out::println);
+
+        List<String> li = names.stream()
+                .map(e -> {
+                    if (e.startsWith("A")) {
+                        e = e.toUpperCase();
+                    }
+                    return e;
+                })
+                .collect(Collectors.toList());
+
+        li.forEach(System.out::println);
     }
 }

@@ -2,7 +2,7 @@ package com.techxtor.StringProgram;
 
 public class ReverseAString {
     public static void main(String[] args) {
-        String str = "dalai";
+        String str = "Manish";
 
         System.out.println("Reversed word is : " + reverseWithoutUsingStringBuilder(str));
         System.out.println("Reversed word using StringBuilder is : " + reverseUsingStringBuilder(str));
@@ -10,11 +10,9 @@ public class ReverseAString {
 
     static String reverseWithoutUsingStringBuilder(String str) {
         String reverseString = "";
-        char ch;
         for (int i = 0; i < str.length(); i++) {
-            ch = str.charAt(i);
             // adds each character in front of the existing string
-            reverseString = ch + reverseString;
+            reverseString = str.charAt(i) + reverseString;
         }
         return reverseString;
 

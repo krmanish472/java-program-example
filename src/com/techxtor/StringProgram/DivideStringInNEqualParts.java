@@ -6,13 +6,14 @@ public class DivideStringInNEqualParts {
 
         int length = string.length();
         int nEqualParts = 3;
-        int index = 0, chars = length / nEqualParts;
+        int index = 0;
+        int chars = length / nEqualParts;
 
         // [ma, ni, sh]
         String[] dividedStrings = new String[nEqualParts];
 
         for (int i = 0; i < length; i = i + chars) {
-            String part = string.substring(i, i + chars);
+            String part = string.substring(i, i + chars); // (0, 2)
             dividedStrings[index] = part;
             index++;
         }

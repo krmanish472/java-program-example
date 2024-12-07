@@ -1,5 +1,7 @@
 package com.techxtor.StreamApi;
 
+import com.techxtor.StreamApi.EmployeeOperation.Employee;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -24,7 +26,7 @@ public class NTHHighestSalary {
         // ... or ... //
         Map.Entry<Integer, List<String>> res = map.entrySet().stream()
                 .collect(Collectors.groupingBy(Map.Entry::getValue,
-                        Collectors.mapping(Map.Entry::getKey, Collectors.toList())))
+                        Collectors.mapping(Map.Entry::getKey, Collectors.toList()))) // Takes Key and maps to List
                 .entrySet()
                 .stream()
                 .sorted(Map.Entry.comparingByKey(Comparator.reverseOrder()))

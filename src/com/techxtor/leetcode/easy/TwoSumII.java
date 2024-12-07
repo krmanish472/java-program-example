@@ -26,9 +26,9 @@ public class TwoSumII {
         while (left_pointer <= right_pointer) {
             int sum = numbers[left_pointer] + numbers[right_pointer];
             if (sum > target) {
-                right_pointer -= 1;
+                right_pointer--;
             } else if (sum < target) {
-                left_pointer += 1;
+                left_pointer++;
             } else {
                 return new int[]{left_pointer + 1, right_pointer + 1};
             }
