@@ -1,4 +1,4 @@
-package com.techxtor.InterviewQue;
+package com.techxtor.ArrayPrograms;
 
 import java.util.Arrays;
 

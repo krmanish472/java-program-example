@@ -1,4 +1,4 @@
-package com.techxtor.InterviewQue;
+package com.techxtor.StringProgram;
 
 public class MostRepeatingCharacter {
     public static void main(String[] args) {

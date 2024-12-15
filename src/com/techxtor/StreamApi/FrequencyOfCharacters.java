@@ -9,8 +9,8 @@ public class FrequencyOfCharacters {
         String sentence = "example sentence with some repeating characters";
 
         Map<Character, Long> frequencyMap = sentence.chars()
-                .filter(c -> c != ' ')
                 .mapToObj(c -> (char) c)
+                .filter(c -> c != ' ')
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
         frequencyMap.entrySet().forEach(System.out::println);

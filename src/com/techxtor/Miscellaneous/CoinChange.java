@@ -1,4 +1,4 @@
-package com.techxtor.InterviewQue;
+package com.techxtor.Miscellaneous;
 
 public class CoinChange {
     public static void main(String[] args) {

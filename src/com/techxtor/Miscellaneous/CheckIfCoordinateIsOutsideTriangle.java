@@ -1,4 +1,4 @@
-package com.techxtor.InterviewQue;
+package com.techxtor.Miscellaneous;
 
 class CheckIfCoordinateIsOutsideTriangle {
     static double area(int x1, int y1,

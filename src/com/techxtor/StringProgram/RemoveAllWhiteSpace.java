@@ -1,4 +1,4 @@
-package com.techxtor.InterviewQue;
+package com.techxtor.StringProgram;
 
 public class RemoveAllWhiteSpace {
     public static void main(String[] args) {
@@ -15,3 +15,12 @@ class RemoveFirstAndLastSpace {
         System.out.println(str);
     }
 }
+
+/* Understanding Regex:
+^ -> marks start
+\ -> escape char
+\s -> look for whitespace character
++ -> any frequency
+| -> and/or
+$ -> marks end
+* */

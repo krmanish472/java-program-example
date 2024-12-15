@@ -29,13 +29,13 @@ public class DoublyLinkedList {
     }
 
     public void display() {
-        if(head == null) {
+        if (head == null) {
             System.out.println("List is empty");
             return;
         }
         Node current = head;
         System.out.println("Nodes of doubly linked list: ");
-        while(current != null) {
+        while (current != null) {
             System.out.print(current.data + " ");
             current = current.next;
         }

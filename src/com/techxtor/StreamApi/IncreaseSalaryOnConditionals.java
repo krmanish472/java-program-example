@@ -1,15 +1,15 @@
-package com.techxtor.InterviewQue;
+package com.techxtor.StreamApi;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-class Employee {
+class InfosysEmployee {
     private String empName;
     private int empId;
     private int salary;
 
-    public Employee(String empName, int empId, int salary) {
+    public InfosysEmployee(String empName, int empId, int salary) {
         this.empName = empName;
         this.empId = empId;
         this.salary = salary;
@@ -77,15 +77,15 @@ public class IncreaseSalaryOnConditionals {
          * Sal: 300
          */
 
-        List<Employee> emp = new ArrayList<>() {{
-            add(new Employee("Ram", 1, 100));
-            add(new Employee("Shyam", 2, 250));
-            add(new Employee("Ganesh", 3, 280));
-            add(new Employee("Arjun", 4, 200));
-            add(new Employee("Karn", 5, 300));
+        List<InfosysEmployee> emp = new ArrayList<>() {{
+            add(new InfosysEmployee("Ram", 1, 100));
+            add(new InfosysEmployee("Shyam", 2, 250));
+            add(new InfosysEmployee("Ganesh", 3, 280));
+            add(new InfosysEmployee("Arjun", 4, 200));
+            add(new InfosysEmployee("Karn", 5, 300));
         }};
 
-        List<Employee> newList = emp.stream()
+        List<InfosysEmployee> newList = emp.stream()
                 .map(e -> {
                     if (e.getSalary() < 280) {
                         e.setSalary(280);
@@ -94,7 +94,7 @@ public class IncreaseSalaryOnConditionals {
                 })
                 .collect(Collectors.toList());
 
-        newList.forEach(e -> System.out.println(e));
+        newList.forEach(System.out::println);
 
 
     }

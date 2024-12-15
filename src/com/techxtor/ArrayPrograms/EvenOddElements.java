@@ -6,7 +6,7 @@ public class EvenOddElements {
         printEvenOdd(arr);
     }
 
-    static void printEvenOdd(int arr[]) {
+    static void printEvenOdd(int[] arr) {
         System.out.println("Even Numbers:");
         for (int num : arr) {
             if (num % 2 == 0) {

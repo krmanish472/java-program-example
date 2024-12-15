@@ -14,6 +14,6 @@ public class CountCharacterLengthInStringList {
         li.stream()
                         .forEach(e-> System.out.println(e + ' ' + e.length()));
 
-//        System.out.println(map);
+        System.out.println(map);
     }
 }
