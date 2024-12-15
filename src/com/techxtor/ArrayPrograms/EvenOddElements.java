@@ -2,7 +2,7 @@ package com.techxtor.ArrayPrograms;
 
 public class EvenOddElements {
     public static void main(String[] args) {
-        int[] arr = new int[]{2, 3, 4, 5, 6, 1, 8, 4, 5};
+        int[] arr = new int[]{2, 3, 4, 0, 5, 6, 1, 8, 4, 5};
         printEvenOdd(arr);
     }
 

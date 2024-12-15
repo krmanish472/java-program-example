@@ -5,21 +5,23 @@ public class PrimeNumber {
         isPrime(23);
     }
 
+    // if a number is divisible by 1 and itself only => Prime
+    // i.e. Prime will have 2 factors only
     static void isPrime(int n) {
-        int count = 0;
+        int factorsCount = 0;
+
+        // loop from 1 to number itself
         for (int i = 1; i <= n; i++) {
             if (n % i == 0) {
-                count++;
+                factorsCount++;
             }
-            if (count > 2) {
-                System.out.println("number is not prime");
+            if (factorsCount > 2) {
+                System.out.println("Number is not prime");
                 break;
             }
         }
-        if(count == 2){
-            System.out.println("number is prime");
+        if(factorsCount == 2){
+            System.out.println("Number is prime");
         }
     }
 }
-
-// 2, 3, 5, 7, 11, 13, 17 => number that has only 2 factor => 1 and number itself

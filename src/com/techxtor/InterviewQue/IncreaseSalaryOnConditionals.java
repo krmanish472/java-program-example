@@ -1,4 +1,4 @@
-package com.techxtor.infosys;
+package com.techxtor.InterviewQue;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,7 +49,7 @@ class Employee {
     }
 }
 
-public class Test {
+public class IncreaseSalaryOnConditionals {
     // Java program to Print each unique char and its number of occurrences eg "Good Moorning"
 
     public static void main(String[] args) {
@@ -87,7 +87,7 @@ public class Test {
 
         List<Employee> newList = emp.stream()
                 .map(e -> {
-                    if(e.getSalary() < 280) {
+                    if (e.getSalary() < 280) {
                         e.setSalary(280);
                     }
                     return e;

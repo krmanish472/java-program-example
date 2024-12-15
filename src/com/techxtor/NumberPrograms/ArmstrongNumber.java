@@ -1,32 +1,36 @@
 package com.techxtor.NumberPrograms;
 
 public class ArmstrongNumber {
+
+    // 153: 3^3 + 5^3 + 1^3 = 153
+    // 125: 13 + 23 + 53 = 134 (Not an Armstrong Number)
     public static void main(String[] args) {
-//        153: 1^3 + 5^3 + 3^3 = 1 + 125+ 27 = 153
-//        125: 13 + 23 + 53 = 1 + 8 + 125 = 134 (Not an Armstrong Number)
-        int num = 125;
-        if(checkForArmstrongNumber(num) == num){
+        int num = 153;
+        int length = countNumLength(153);
+        if(calculateArmstrongSum(num, length) == num){
             System.out.println("Armstrong");
         } else{
-            System.out.println("not Armstrong");
+            System.out.println("Not Armstrong");
         }
     }
 
-    static int checkForArmstrongNumber(int num) {
+    static int countNumLength(int num){
         int numberOfdigit = 0;
-        int countNum = num;
-        while (countNum != 0) {
-            countNum = countNum / 10;
+        while (num != 0) {
+            num = num / 10;
             numberOfdigit++;
         }
+        return  numberOfdigit;
+    }
 
+    // calculate -- 5^3 + 2^3 + 1^3
+    static int calculateArmstrongSum(int num, int length) {
         int output = 0;
         while (num != 0) {
             int lastdigit = num % 10;
-            output += Math.pow(lastdigit, numberOfdigit);
+            output += (int) Math.pow(lastdigit, length);
             num= num/10;
         }
         return output;
-
     }
 }

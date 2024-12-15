@@ -5,14 +5,15 @@ public class ReverseANumber {
         reverseNumber(123);
     }
 
+    // 123 => 321
     static void reverseNumber(int num) {
-        int orgNum = num; // just for printing
+        System.out.println("Original Number: " + num);
         int revNum = 0;
         while (num != 0) {
             int lastdigit = num % 10;
             revNum = revNum * 10 + lastdigit;
             num = num / 10;
         }
-        System.out.println("Reverse of " + orgNum + " is " + revNum);
+        System.out.println("Reversed Number: " + revNum);
     }
 }

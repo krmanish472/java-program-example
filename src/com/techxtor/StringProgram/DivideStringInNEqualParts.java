@@ -1,19 +1,19 @@
 package com.techxtor.StringProgram;
 
 public class DivideStringInNEqualParts {
+
+    // Example uses 3 equal parts
     public static void main(String[] args) {
         String string = "manish";
-
-        int length = string.length();
         int nEqualParts = 3;
+
+        String[] dividedStrings = new String[nEqualParts]; // [ma, ni, sh]
+
         int index = 0;
-        int chars = length / nEqualParts;
+        int eachPartLength = string.length() / nEqualParts;
 
-        // [ma, ni, sh]
-        String[] dividedStrings = new String[nEqualParts];
-
-        for (int i = 0; i < length; i = i + chars) {
-            String part = string.substring(i, i + chars); // (0, 2)
+        for (int i = 0; i < string.length(); i = i + eachPartLength) {
+            String part = string.substring(i, i + eachPartLength); // (0, 2)
             dividedStrings[index] = part;
             index++;
         }

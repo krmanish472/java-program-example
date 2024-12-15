@@ -19,9 +19,8 @@ public class ReverseAString {
     }
 
     static String reverseUsingStringBuilder(String str) {
-        StringBuilder input1 = new StringBuilder();
-        input1.append(str);
-        return input1.reverse().toString();
+        StringBuilder stringBuilder = new StringBuilder(str);
+        return stringBuilder.reverse().toString();
     }
 }
 

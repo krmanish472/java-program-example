@@ -3,14 +3,13 @@ package com.techxtor.StringProgram;
 public class FindAllSubsets {
     public static void main(String[] args) {
         String str = "FUN";
-        int len = str.length();
         int index = 0;
 
         // total possible subsets for string of size n is n*(n+1)/2
-        String[] arr = new String[len * (len + 1) / 2];
+        String[] arr = new String[str.length() * (str.length() + 1) / 2];
 
-        for (int i = 0; i < len; i++) {
-            for (int j = i; j < len; j++) {
+        for (int i = 0; i < str.length(); i++) {
+            for (int j = i; j < str.length(); j++) {
                 arr[index] = str.substring(i, j + 1);
                 index++;
             }

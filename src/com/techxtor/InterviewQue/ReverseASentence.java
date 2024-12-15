@@ -11,6 +11,8 @@ public class ReverseASentence {
     static void reverseSentence(String str) {
         StringJoiner stringJoiner = new StringJoiner(" ");
         String[] arr = str.split(" ");
+
+        // Start the loop from last word
         for (int i = arr.length - 1; i >= 0; i--) {
             stringJoiner.add(arr[i]);
         }

@@ -5,14 +5,14 @@ public class FindFactorialOfNumber {
         System.out.println(findFactorial(5));
     }
 
+    // 5! = 5*4*3*2*1
     static int findFactorial(int n) {
-       int factorial = 1;
-        while(n!=0){
-           factorial = factorial*n;
-           n--;
-       }
-        return  factorial;
+        int factorial = 1;
+        while (n != 0) {
+            factorial = factorial * n;
+            n--;
+        }
+        return factorial;
     }
 }
 
-// 5! = 5*4*3*2*1

@@ -1,19 +1,14 @@
 package com.techxtor.NumberPrograms;
 
-// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 public class FibonacciSeries {
     public static void main(String[] args) {
-        int[] fibonacciArray = printFibonacciSeries();
-        for (int i : fibonacciArray) {
-            System.out.print(i + " ");
-        }
-
-        // without array and just variable
-        System.out.println(".....#####.....");
+        printFibonacciSeries();
+        System.out.println();
         printFibonacciSeriesWithoutArray();
     }
 
-    private static int[] printFibonacciSeries() {
+    // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+    private static void printFibonacciSeries() {
         int[] fibonacciArray = new int[10];
         fibonacciArray[0] = 0;
         fibonacciArray[1] = 1;
@@ -21,7 +16,9 @@ public class FibonacciSeries {
         for (int i = 2; i < fibonacciArray.length; i++) {
             fibonacciArray[i] = fibonacciArray[i - 1] + fibonacciArray[i - 2];
         }
-        return fibonacciArray;
+        for (int i : fibonacciArray) {
+            System.out.print(i + " ");
+        }
     }
 
     static void printFibonacciSeriesWithoutArray() {

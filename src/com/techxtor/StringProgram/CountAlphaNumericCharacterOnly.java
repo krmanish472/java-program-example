@@ -1,6 +1,6 @@
 package com.techxtor.StringProgram;
 
-public class CountAlphaNumbericCharacterOnly {
+public class CountAlphaNumericCharacterOnly {
     public static void main(String[] args) {
         int specialCharacterAndWhiteSpaceCount = 0;
 

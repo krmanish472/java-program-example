@@ -6,7 +6,7 @@ public class PerfectSquare {
     }
 
     static boolean checkForPerfectSquare(double number) {
-        double squrt = Math.sqrt(number);
-        return ((squrt) - Math.floor(squrt) == 0);
+        double sqrt = Math.sqrt(number);
+        return ((sqrt) - Math.floor(sqrt) == 0);
     }
 }

@@ -6,9 +6,10 @@ public class SwapNumberWithThirdVar {
     }
 
     static void swapNumber(int num1, int num2){
+        System.out.println("Before Swap: " + num1 + " " + num2);
         int temp = num1; //30
         num1 = num2; // 40
         num2 = temp; // 30
-
+        System.out.println("After Swap: " + num1 + " " + num2);
     }
 }
